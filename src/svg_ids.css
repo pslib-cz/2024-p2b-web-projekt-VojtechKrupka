@@ -1,29 +1,49 @@
-  #logoSVG{
-    color: var(--text-color);
-  }
-  #homeSVG{
-    margin-bottom: -0.4em;
-    color: var(--text-color);
-  }
-  #trendingSVG{
-    margin-bottom: -0.4em;
-    color: var(--text-color);
-  }
-  #contactSVG{
-    margin-bottom: -2px;
-    color: var(--text-color);
-  }
-  #headerLineSVG{
-    display: block;
-    margin: 0 auto;
-    width: calc(100vw - 20px);
-    height: 2px;
-    color: var(--text-color);
-  }
-  #footerLineSVG{
-    display: block;
-    margin: 0 auto;
-    width: calc(100vw - 20px);
-    height: 2px;
-    color: var(--text-color);
-  }
+#logoSVG {
+  color: var(--text-color);
+}
+#homeSVG{
+  margin-bottom: -0.4em;
+  color: var(--text-color);
+}
+#trendingSVG{
+  margin-bottom: -0.4em;
+  color: var(--text-color);
+}
+#contactSVG{
+  margin-bottom: -2px;
+  color: var(--text-color);
+}
+#likeSVG{  
+  color: var(--like-color);
+  width: 20px;
+  height: 20px;
+  margin-bottom: -0.35em;
+}
+#userSVG{  
+  color: var(--secondary-color);
+  width: 20px;
+  height: 20px;
+  margin-bottom: -0.35em;
+  margin-left: 0.1em;
+}
+#downloadIconSVG{
+  color: var(--secondary-color);
+  width: 20px;
+  height: 20px;
+  margin-bottom: -0.35em;
+  margin-left: 0.1em;
+}
+#headerLineSVG{
+  display: block;
+  margin: 0 auto;
+  width: calc(100vw - 20px);
+  height: 2px;
+  color: var(--text-color);
+}
+#footerLineSVG{
+  display: block;
+  margin: 0 auto;
+  width: calc(100vw - 20px);
+  height: 2px;
+  color: var(--text-color);
+}
