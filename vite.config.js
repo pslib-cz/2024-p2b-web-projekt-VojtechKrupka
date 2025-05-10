@@ -7,8 +7,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         home: resolve(__dirname, 'index.html'),
-        trending: resolve(__dirname, 'public/trending.html'),
-        contact: resolve(__dirname, 'public/contact.html'),
+        trending: resolve(__dirname, 'trending.html'),
+        contact: resolve(__dirname, 'contact.html'),
       },
     },
   },
