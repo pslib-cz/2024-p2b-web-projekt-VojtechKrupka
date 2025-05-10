@@ -12,34 +12,120 @@
   <body>
     <header class="header">
       <div class="logo">
-        <p>Photo <span id="gallerySpan">Gallery</span><img id="logoSVG" src="./src/icons/pic_ai_line.svg" width="24" height="24" alt="GalleryIcon"></p>
+        <div class="logo-top-row">
+          <p>Photo</p>
+          <img id="logoSVG" src="./src/icons/pic_ai_line.svg" width="24" height="24" alt="GalleryIcon">
+        </div>
+        <p>Gallery</p>
       </div>
       <div class="navbar">
-        <a href="./index.html" id="home">Home<img id="homeSVG" src="./src/icons/home_line.svg" width="24" height="24" alt="HomeIcon"></a>
-        <a href="./trending.html" id="trending">Trending<img id="trendingSVG" src="./src/icons/trending_up_fill.svg" width="24" height="24" alt="TrendingIcon"></a>
-        <a href="./contact.html" id="contact">Contact<img id="contactSVG" src="./src/icons/phone_incoming_line.svg" width="20" height="20" alt="ContactIcon"></a>
+        <a href="./index.html">
+          <div class="navbar-item">
+          <img id="homeSVG" src="./src/icons/home_line.svg" width="24" height="24" alt="HomeIcon">
+          <span>Home</span>
+          </div>
+        </a>
+        <a href="./trending.html">
+          <div class="navbar-item">
+          <img id="trendingSVG" src="./src/icons/trending_up_fill.svg" width="24" height="24" alt="TrendingIcon">
+          <span>Trending</span>
+          </div>
+        </a>
+        <a href="./contact.html">
+        <div class="navbar-item">
+          <img id="contactSVG" src="./src/icons/phone_incoming_line.svg" width="20" height="20" alt="ContactIcon">
+          <span>Contact</span>
+          </div>
+        </a>
       </div>
-      <img id="headerLineSVG" src="./src/icons/header_line.svg" alt="HeaderLine">
     </header>
+    
+    <div class="h-line-container">
+      <img id="headerLineSVG" src="./src/icons/header_line.svg" alt="HeaderLine">
+    </div>
 
     <section class="mainSection">
-      <h1 class="title">Explore the World<span class="subtitle">Via fabulous photos.</span></h1>
-      <div class="galleryContainer">  
-        <img id="img12" src="./src/images/exampleImage (12).webp" alt="exampleImage12">
-        <img id="img2" src="./src/images/exampleImage (2).webp" alt="exampleImage12">
-        <img id="img11" src="./src/images/exampleImage (11).webp" alt="exampleImage12">
-        <img id="img10" src="./src/images/exampleImage (10).webp" alt="exampleImage12">
-        <img id="img9" src="./src/images/exampleImage (9).webp" alt="exampleImage12">
-        <img id="img7" src="./src/images/exampleImage (7).webp" alt="exampleImage12">
-        <img id="img6" src="./src/images/exampleImage (6).webp" alt="exampleImage12">
-      </div>
-    </section>
 
+      <h1 class="title">Top Trending Photos</h1>
+      <p id="subtitleT">The best pictures you have ever seen</p>
+      <p class="sorting">Sort by: <span>Likes</span><img id="likeSVG" src="./src/icons/heart_line.svg" alt="LikeIcon"></p>
+      <div class="trendingsContainer">
+        
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">NiagaraEnjoyer<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (5).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">LoremIpsum123<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (11).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">LoremIpsum123<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (10).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">LoremIpsum123<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (4).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+    </section>
+    
     <footer class="footer">
-      <img id="footerLineSVG" src="./src/icons/header_line.svg" alt="FooterLine">
+      <div class="f-line-container">
+        <img id="footerLineSVG" src="./src/icons/header_line.svg" alt="FooterLine">
+      </div>
       <p class="footerText">Design by Vojtěch Krupka</p>
     </footer>
 
     <script src="/src/main.js"></script>
   </body>
-</html> 
+</html>
