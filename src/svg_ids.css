@@ -1,53 +1,29 @@
-#gallerySpan{
-    position: absolute;
-    top: 20px;
-    left: 14px;
-  }
-  
   #logoSVG{
-    position: absolute;
     color: var(--text-color);
-  }
-  #home{
-    position: relative;
   }
   #homeSVG{
-    position: absolute;
-    left: 28%;
-    bottom: 75%;
+    margin-bottom: -0.4em;
     color: var(--text-color);
-  }
-  #trending{
-    position: relative;
   }
   #trendingSVG{
-    position: absolute;
-    left: 36%;
-    bottom: 70%;
+    margin-bottom: -0.4em;
     color: var(--text-color);
   }
-  #contact{
-    position: relative;
-  }
   #contactSVG{
-    position: absolute;
-    left: 38%;
-    bottom: 87%;
+    margin-bottom: -2px;
     color: var(--text-color);
   }
   #headerLineSVG{
-    position: absolute;
-    left: 5px;
-    bottom: 3px;
-    width: calc(100vw - 10px);
+    display: block;
+    margin: 0 auto;
+    width: calc(100vw - 20px);
     height: 2px;
     color: var(--text-color);
   }
   #footerLineSVG{
-    position: absolute;
-    left: 5px;
-    top: 0;
-    width: calc(100vw - 10px);
+    display: block;
+    margin: 0 auto;
+    width: calc(100vw - 20px);
     height: 2px;
     color: var(--text-color);
   }
