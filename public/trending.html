@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./src/normalize.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/svg_ids.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotoGallery-Trending</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <div class="logo-top-row">
+          <p>Photo</p>
+          <img id="logoSVG" src="./src/icons/pic_ai_line.svg" width="24" height="24" alt="GalleryIcon">
+        </div>
+        <p>Gallery</p>
+      </div>
+      <div class="navbar">
+        <a href="./index.html">
+          <div class="navbar-item">
+          <img id="homeSVG" src="./src/icons/home_line.svg" width="24" height="24" alt="HomeIcon">
+          <span>Home</span>
+          </div>
+        </a>
+        <a href="./trending.html">
+          <div class="navbar-item">
+          <img id="trendingSVG" src="./src/icons/trending_up_fill.svg" width="24" height="24" alt="TrendingIcon">
+          <span>Trending</span>
+          </div>
+        </a>
+        <a href="./contact.html">
+        <div class="navbar-item">
+          <img id="contactSVG" src="./src/icons/phone_incoming_line.svg" width="20" height="20" alt="ContactIcon">
+          <span>Contact</span>
+          </div>
+        </a>
+      </div>
+    </header>
+    
+    <div class="h-line-container">
+      <img id="headerLineSVG" src="./src/icons/header_line.svg" alt="HeaderLine">
+    </div>
+
+    <section class="mainSection">
+
+      <h1 class="title">Top Trending Photos</h1>
+      <p id="subtitleT">The best pictures you have ever seen</p>
+      <p class="sorting">Sort by: <span>Likes</span><img id="likeSVG" src="./src/icons/heart_line.svg" alt="LikeIcon"></p>
+      <div class="trendingsContainer">
+        
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">NiagaraEnjoyer<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (5).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">LoremIpsum123<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (11).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">LoremIpsum123<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (10).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-item">
+            <div class="t-item-top-row">
+                <p>Uploaded by:</p>
+                <p>Downloads: <span>69k</span><img id="downloadIconSVG" src="./src/icons/arrow_down_circle_line.svg" alt="DownloadIcon"></p>
+            </div>
+            <p class="t-item-user">LoremIpsum123<img id="userSVG" src="./src/icons/user_line.svg" alt="UserIcon"></p>
+            <div class="t-item-body">
+                <img class="t-item-img" src="./src/images/exampleImage (4).webp" alt="exampleImage5">
+                <div class="t-item-reactions">
+                    <p><span>69k </span>Likes</p>
+                    <p><span>69k </span>Shares</p>
+                    <p><span>69k </span>Stars</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+    </section>
+    
+    <footer class="footer">
+      <div class="f-line-container">
+        <img id="footerLineSVG" src="./src/icons/header_line.svg" alt="FooterLine">
+      </div>
+      <p class="footerText">Design by Vojtěch Krupka</p>
+    </footer>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
