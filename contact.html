@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PhotoGallery-Contact</title>
-    <script type="module" crossorigin src="/2024-p2b-web-projekt-VojtechKrupka/assets/main-DZPMZeND.js"></script>
-    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-VojtechKrupka/assets/main-3ccieoUc.css">
+    <script type="module" crossorigin src="/2024-p2b-web-projekt-VojtechKrupka/assets/main-DAClmpzr.js"></script>
+    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-VojtechKrupka/assets/main-B0DHfbem.css">
   </head>
 
   <body>
@@ -43,11 +43,35 @@
       <img id="headerLineSVG" src="data:image/svg+xml,%3csvg%20width='350'%20height='1'%20viewBox='0%200%20350%202'%20fill='none'%20preserveAspectRatio='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20y1='0.5'%20x2='350'%20y2='0.5'%20stroke='%233A2935'%20fill='currentColor'/%3e%3c/svg%3e" alt="HeaderLine">
     </div>
 
-    <section class="mainSection">
+    <section class="mainSection"> <!-- cely predelam do gridu -->
       <h1 class="title">Contact Details</h1>
-      <p id="subtitleT">The best pictures you have ever seen</p>
-      <div class="galleryContainer">
-        <p>contact - text</p>
+      <p id="subtitleC">We'll reach out to you in under 24 hours</p>
+      <div class="contactContainer">
+        <ul class="contact-list">
+          <li><p>Adress: <span class="span-pink">Central Part 16, New York USA</span></p></li>
+          <li><p>Designer: <span class="span-pink">Vojtěch Krupka</span></p></li>
+          <li><p>Phone: <span class="span-pink">+420 000 000 000</span></p></li>
+        </ul>
+        <p>To request an upload please contact us on <span class="span-pink">upload@photogallery.com</span></p>
+        <h2 class="title">Contact Our Support</h2>
+        <p class="contact-title">Name</p>
+        <div class="contact-field"></div>
+        <p class="contact-title">Surname</p> <!-- cely predelam do gridu -->
+        <div class="contact-field"></div>
+        <p class="contact-title">Email</p>
+        <div class="contact-field"></div>
+        <p class="contact-title">Issue</p>
+        <div class="contact-field" id="contact-issue"></div>
+        <div class="contact-last-row">
+          <div>
+            <p class="contact-title">Images</p>
+            <div class="contact-field" id="contact-last-row"><p class="contact-plus">+</p></div>
+          </div>
+          <div>
+            <p class="contact-title">Description</p>
+            <div class="contact-field" id="contact-last-row"></div>
+          </div>
+        </div>
       </div>
     </section>
     
