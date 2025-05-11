@@ -4,6 +4,7 @@
 :root {
   --primary-color: #9fa2a49f;
   --secondary-color: #D009AC;
+  --secondary-opacity-color: #e209ba25;
   --text-color: #191717;
   --background-color: #FFD8F8;
   --like-color: #EE3232;
@@ -91,6 +92,72 @@ body {
   text-align: center;
 }
 
+h2 {
+  margin: 0.5em 0;
+}
+
+li {
+  margin-left: 1.1em;
+}
+
+.span-pink {
+  color: var(--secondary-color);
+}
+
+.contact-list {
+  list-style: outside;
+}
+
+.contact-title {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+.contactList > * {
+  font-size: 14px;
+}
+
+.contactContainer {
+  margin-bottom: 1em;
+}
+
+.contactContainer > p {
+  font-size: 14px;
+  margin-top: 0.5em;
+}
+
+.contact-field {
+  width: 100%;
+  height: 2.5em;
+  background-color: var(--secondary-opacity-color);
+  border: var(--secondary-color) solid 1px;
+  border-radius: 4px;
+}
+
+.contact-plus {
+  color: var(--primary-color);
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact-last-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact-issue {
+  height: 7.5em;
+}
+
+#contact-last-row {
+  aspect-ratio: 1/1;
+  width: 7.5em;
+  height: 7.5em;
+  align-content: center;
+}
+
 #subtitleH {
   font-family: "Lexend Zetta";
   font-size: 0.5em;
@@ -108,6 +175,16 @@ body {
   text-align: center;
   margin-bottom: 1.5em;
   margin-top: -1.75em;
+  margin-right: 0.5em;
+}
+
+#subtitleC {
+  font-family: "Lexend Zetta";
+  font-size: 0.5em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1.5em;
+  margin-top: -2.15em;
   margin-right: 0.5em;
 }
 
