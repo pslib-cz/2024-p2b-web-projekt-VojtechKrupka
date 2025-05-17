@@ -1,6 +1,12 @@
 #logoSVG {
   color: var(--text-color);
 }
+#logoSVG2 {
+  color: var(--text-color);
+  display: none;
+  padding-left: 0.2rem;
+  scale: 1.25;
+}
 #homeSVG{
   margin-bottom: -0.4em;
   color: var(--text-color);

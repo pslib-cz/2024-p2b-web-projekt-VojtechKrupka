@@ -15,6 +15,7 @@
           <img id="logoSVG" src="./src/icons/pic_ai_line.svg" width="24" height="24" alt="GalleryIcon">
         </div>
         <p>Gallery</p>
+        <img id="logoSVG2" src="./src/icons/pic_ai_line.svg" width="24" height="24" alt="GalleryIcon2">
       </div>
       <div class="navbar">
         <a href="./index.html">
@@ -45,33 +46,46 @@
     <section class="mainSection"> <!-- cely predelam do gridu -->
       <h1 class="title">Contact Details</h1>
       <p id="subtitleC">We'll reach out to you in under 24 hours</p>
-      <div class="contactContainer">
         <ul class="contact-list">
           <li><p>Adress: <span class="span-pink">Central Part 16, New York USA</span></p></li>
           <li><p>Designer: <span class="span-pink">Vojtěch Krupka</span></p></li>
           <li><p>Phone: <span class="span-pink">+420 000 000 000</span></p></li>
         </ul>
+
+        <iframe class="contact-map"
+          src="https://maps.apple.com/embed?address=150%20Central%20Park%20S,%20New%20York,%20NY%2010019&ll=40.7660518,-73.9779367&q=Marked%20Location"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
         <p>To request an upload please contact us on <span class="span-pink">upload@photogallery.com</span></p>
         <h2 class="title">Contact Our Support</h2>
-        <p class="contact-title">Name</p>
-        <div class="contact-field"></div>
-        <p class="contact-title">Surname</p> <!-- cely predelam do gridu -->
-        <div class="contact-field"></div>
-        <p class="contact-title">Email</p>
-        <div class="contact-field"></div>
-        <p class="contact-title">Issue</p>
-        <div class="contact-field" id="contact-issue"></div>
-        <div class="contact-last-row">
-          <div>
-            <p class="contact-title">Images</p>
-            <div class="contact-field" id="contact-last-row"><p class="contact-plus">+</p></div>
+        
+        <form action="">
+          <div class="contact-form">
+            <p class="contact-title">Name</p>
+            <div class="contact-field"><input type="text" id="form-text" name="name"></div>
+            <p class="contact-title">Surname</p>
+            <div class="contact-field"><input type="text" id="form-text" name="surname"></div>
+            <p class="contact-title">Email</p>
+            <div class="contact-field"><input type="email" id="form-text" name="email"></div>
+            <p class="contact-title">Issue</p>
+            <div class="contact-field" id="contact-issue"><textarea type="text" id="form-text" name="issue"></textarea></div>
+            <div class="contact-last-title">
+              <p class="contact-title">Images</p>
+              <p class="contact-title">Description</p>
+            </div>
+            <div class="contact-last-row">
+              <div class="contact-last-field">
+                <label for="form-image" class="btn"><p class="contact-plus">+</p></label>
+                <input type="file" id="form-image" name="image" accept="image/*">
+              </div>
+              <div class="contact-last-field"><textarea type="description" id="form-text" name="description"></textarea></div>
+            </div>
+            <button type="submit" onclick="alert('Submitted!')" class="contact-field">Submit</button>
           </div>
-          <div>
-            <p class="contact-title">Description</p>
-            <div class="contact-field" id="contact-last-row"></div>
-          </div>
-        </div>
-      </div>
+        </form>
     </section>
     
     <footer class="footer">
