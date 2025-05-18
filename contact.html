@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhotoGallery-Contact</title>
     <link rel="icon" type="image/x-icon" href="/2024-p2b-web-projekt-VojtechKrupka/assets/favicon32-CTS1sgqY.png">
-    <script type="module" crossorigin src="/2024-p2b-web-projekt-VojtechKrupka/assets/main-DHfOnxQy.js"></script>
-    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-VojtechKrupka/assets/main-lfTCjgg0.css">
+    <script type="module" crossorigin src="/2024-p2b-web-projekt-VojtechKrupka/assets/main-Bpajpn8x.js"></script>
+    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-VojtechKrupka/assets/main-C31avae9.css">
   </head>
 
   <body>
@@ -65,26 +65,26 @@
         <p>To request an upload please contact us on <span class="span-pink">upload@photogallery.com</span></p>
         <h2 class="title">Contact Our Support</h2>
         
-        <form action="">
+        <form action=".">
           <div class="contact-form">
             <p class="contact-title">Name</p>
-            <div class="contact-field"><input type="text" id="form-text" name="name"></div>
+            <div class="contact-field"><input type="text" class="form-text" name="name"></div>
             <p class="contact-title">Surname</p>
-            <div class="contact-field"><input type="text" id="form-text" name="surname"></div>
+            <div class="contact-field"><input type="text" class="form-text" name="surname"></div>
             <p class="contact-title">Email</p>
-            <div class="contact-field"><input type="email" id="form-text" name="email"></div>
+            <div class="contact-field"><input type="email" class="form-text" name="email"></div>
             <p class="contact-title">Issue</p>
-            <div class="contact-field" id="contact-issue"><textarea type="text" id="form-text" name="issue"></textarea></div>
+            <div class="contact-field" id="contact-issue"><textarea class="form-text" name="issue"></textarea></div>
             <div class="contact-last-title">
               <p class="contact-title">Images</p>
               <p class="contact-title">Description</p>
             </div>
             <div class="contact-last-row">
               <div class="contact-last-field">
-                <label for="form-image" class="btn"><p class="contact-plus">+</p></label>
+                <label for="form-image" id="btn"><span class="contact-plus">+</span></label>
                 <input type="file" id="form-image" name="image" accept="image/*">
               </div>
-              <div class="contact-last-field"><textarea type="description" id="form-text" name="description"></textarea></div>
+              <div class="contact-last-field"><textarea class="form-text" name="description"></textarea></div>
             </div>
             <button type="submit" onclick="alert('Submitted!')" class="contact-field">Submit</button>
           </div>
