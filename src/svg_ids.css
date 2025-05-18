@@ -1,44 +1,52 @@
 #logoSVG {
   color: var(--text-color);
 }
+
 #logoSVG2 {
   color: var(--text-color);
   display: none;
   padding-left: 0.2rem;
   scale: 1.25;
 }
+
 #homeSVG{
   margin-bottom: -0.4em;
   color: var(--text-color);
 }
+
 #trendingSVG{
   margin-bottom: -0.4em;
   color: var(--text-color);
 }
+
 #contactSVG{
   margin-bottom: -2px;
   color: var(--text-color);
 }
+
 #likeSVG{  
   color: var(--like-color);
   width: 20px;
   height: 20px;
   margin-bottom: -0.35em;
 }
-#userSVG{  
+
+.userSVG{  
   color: var(--secondary-color);
   width: 20px;
   height: 20px;
   margin-bottom: -0.35em;
   margin-left: 0.1em;
 }
-#downloadIconSVG{
+
+.downloadIconSVG{
   color: var(--secondary-color);
   width: 20px;
   height: 20px;
   margin-bottom: -0.35em;
   margin-left: 0.1em;
 }
+
 #headerLineSVG{
   display: block;
   margin: 0 auto;
@@ -46,6 +54,7 @@
   height: 2px;
   color: var(--text-color);
 }
+
 #footerLineSVG{
   display: block;
   margin: 0 auto;
