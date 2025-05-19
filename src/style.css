@@ -322,6 +322,7 @@ button {
 
 .t-item-top-row p:last-of-type {
   font-size: 0.75rem;
+  padding-left: 20vw;
 }
 
 .t-item-top-row p:last-of-type span {
@@ -342,7 +343,7 @@ button {
 .t-item-img {
   width: 70%;
   height: auto;
-  aspect-ratio: 1.5 / 1;
+  aspect-ratio: 2 / 1;
   border-radius: 4px;
   margin: 0.25rem 0.4rem 0 0;
   flex-grow: 0;
@@ -361,7 +362,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.875vw;
+  gap: 1rem;
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
@@ -482,12 +483,21 @@ button {
     justify-content: flex-end;
     gap: 1.5rem;
   }
+  .t-item-top-row p:last-of-type {
+    padding-left: 0;
+  }
   .navbar-item {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
     gap: 0.15rem;
   }
+
+  .navbar-item:hover {
+    color: var(--secondary-color);
+    transform: scale(1.1);
+  }
+
   #contactSVG {
     width: 22px;
     height: 22px;
@@ -602,6 +612,7 @@ button {
     width: 100%;
     margin-right: 0;
     margin-bottom: 0.25rem;
+    aspect-ratio: 1.8 / 1;
   }
 
   li > p {
